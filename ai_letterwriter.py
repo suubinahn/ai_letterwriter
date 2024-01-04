@@ -9,7 +9,7 @@ client = OpenAI(
 st.title("💌 AI_레터라이터")
 st.subheader("AI를 이용하여 특별한 '새해편지'를 작성해보세요!")
 st.write("'새해 인사'를 전하고 싶지만 어떤 말을 전해야 좋을지 고민인 당신! AI_레터라이터를 통해 특별한 새해 편지를 작성해 보세요! 떠오르는 사람의 이름과 나이 그리고 그 대상을 표현하기 좋은 간단한 정보만 입력해 주면 끝! 생성할 편지 수와 편지 내용의 성격을 결정지을 MBTI 유형 및 작성 모드 그리고 내용에 포함시키고자 하는 키워드까지 더해주면 더욱 특별한 편지가 생성된답니다.")
-local_image_path = r"C:\Users\tomat\Downloads\love-letter.png"
+local_image_path = "love-letter.png"
 image = Image.open(local_image_path)
 resized_image = image.resize((200, 215))
 #st.image(resized_image, caption='Downloaded Image')
